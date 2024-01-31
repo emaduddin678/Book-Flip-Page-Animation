@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body{
+    /* overflow: hidden; */
+    background: url('assets/bodybg.jpg') ;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: 'Rubik Glitch Pop', system-ui;
+}
+
+.book{
+    width: 600px;
+    height: 530px;
+    margin: 5% auto;
+    overflow: hidden;
+    
+}
+.book h1{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+.flip_page_container{
+    width: 100%;
+    height: 100%;
+}
+.flip_page_container .img_container{
+    width: 100%;
+    height: 100%;
+}
+
+.flip_page_container .img_container img{
+    width: 100%;
+    height: 100%;
+}

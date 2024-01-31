@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Flip Page</title>
+    <!-- css style link  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+
+    <section class="book">
+      <h1>Suratul Mulk</h1>
+      <div class="flip_page_container" id="sura_Mulk">
+        <div class="img_container">
+          <img src="./assets/mulkpage1.gif" alt="book page" />
+        </div>
+        <div class="img_container">
+          <img src="./assets/mulkpage2.gif" alt="book page" />
+        </div>
+        <div class="img_container">
+          <img src="./assets/mulkpage3.gif" alt="book page" />
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="turn.js"></script>
+    <script>
+      $("#sura_Mulk").turn({ gradients: true, acceleration: true });
+    </script>
+  </body>
+</html>
